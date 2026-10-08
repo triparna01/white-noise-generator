@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import signal
+import os
 
 from generator import generate_white_noise
 
@@ -115,6 +116,8 @@ generate_button = st.button(
 # ==========================================
 
 if generate_button:
+
+    os.makedirs("output", exist_ok=True)
 
     with st.spinner("Generating white noise..."):
 
