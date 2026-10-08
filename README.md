@@ -2,6 +2,11 @@
 
 A Python-based white noise generation and analysis application that generates Gaussian white noise, controls its audio parameters, analyzes its signal properties, and provides the resulting WAV file for playback and download.
 
+
+🌐 **[Live Demo](https://white-noise-generator-111.streamlit.app/)**
+
+Generate, visualize, analyze, and download white noise using Python.
+
 The project was developed with a research-oriented approach and is inspired by the study:
 
 > Egeland J, Lund O, Kowalik-Gran I, Aarlien AK, Söderlund GBW (2023).
